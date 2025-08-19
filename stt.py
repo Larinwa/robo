@@ -55,10 +55,7 @@ class SpeechToText:
 
         return text.strip()
 
-
-# -------------------------------
 # Test block to run STT standalone
-# -------------------------------
 if __name__ == "__main__":
     ROOT_DIR = Path(__file__).parent
     MODEL_PATH = ROOT_DIR / "vosk-model-small-en-us-0.15"
